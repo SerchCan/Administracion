@@ -17,7 +17,8 @@ class App extends Component {
     }),{
       withCredentials:true
     })
-    .then(function(response){/*
+    .then(function(response){
+      /*
       if(response.data==="Debe de iniciar sesión como Administrador"){
         alert("No tiene permiso de ver está página");
         // Redirect
@@ -25,7 +26,8 @@ class App extends Component {
       if(response.data==="Su sesión ha terminado"){
         alert("Su sesión ha caducado");
         // Redirect
-      }*/
+      }
+      */
     });
   }
   render() {
